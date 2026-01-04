@@ -16,7 +16,7 @@ An AI-powered full-stack web application that generates images from text prompts
 
 **Frontend**
 - React.js
-- CSS / Tailwind (if applicable)
+- TailwindCSS
 
 **Backend**
 - Node.js
