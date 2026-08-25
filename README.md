@@ -34,7 +34,13 @@ An AI-powered full-stack web application that generates images from text prompts
 ![Home Page](assets/ss1.png)
 
 ### Image Generation Result
-![Generated Image](assets/ss4.png)
+![Generated Image](assets/ss2.png)
+
+### Pricing Page
+![Pricing page](assets/ss3.png)
+
+### Razorpay Payment Page
+![Payment page](assets/ss4.png)
 
 
 ## 🧠 How It Works

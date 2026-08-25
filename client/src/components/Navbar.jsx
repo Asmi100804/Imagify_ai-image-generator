@@ -9,15 +9,15 @@ const Navbar = () => {
   return (
     <div className ='flex items-center justify-between py-4'>
       <Link to = '/'><div className='flex flex-row gap-2'>
-        <img src={assets.logo_icon} alt="" className='h-3 sm:h-6 lg:h-10 filter hue-rotate-[260deg] saturate-150 brightness-110'/>
-        <p className='text-4xl !font-mono font-bold'>Imagical</p>
+        <img src={assets.logo_icon} alt="" className='h-3 sm:h-6 lg:h-10 filter hue-rotate-260 saturate-150 brightness-110'/>
+        <p className='text-4xl font-mono! font-bold'>Imagify</p>
       </div></Link>
       <div>
         {
         user ? 
         <div className='flex items-center gap-2 sm:gap-4'>
             <button onClick={()=> navigate('/buy')} className='flex items-center gap-2 bg-green-200 px-4 sm:px-6 py-1.5 sm:py-3 rounded-full hover:bg-gray-300 hover:scale-105 transition-colors duration-300'>
-                <img className='w-5 filter hue-rotate-[260deg] saturate-150 brightness-110' src={assets.credit_star} alt="" />
+                <img className='w-5 filter hue-rotate-260 saturate-150 brightness-110' src={assets.credit_star} alt="" />
                 <p className='text-xs sm:text-sm font-medium'>Credits left: {credit}</p>
             </button>
             <p className='max-sm:hidden pl-4'>Hi, {user.name}</p>
